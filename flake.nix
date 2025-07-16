@@ -2,7 +2,7 @@
   description = "Custom NixOS Installer ISO with Calamares";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -17,7 +17,7 @@
             {
               nixpkgs.config.allowUnfree = true;
               isoImage.isoName = "nixos-custom-installer.iso";
-              system.stateVersion = "24.05";
+              system.stateVersion = "25.05";
             }
           ];
         };
