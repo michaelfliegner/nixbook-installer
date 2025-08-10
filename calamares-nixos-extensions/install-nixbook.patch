@@ -21,7 +21,7 @@ index 9903de8..bed035e 100644
 +        variables["nixbook_base_path"] = "../nixbook/base_lite.nix"
 +
 +    libcalamares.utils.host_env_process_output(
-+        ["git", "clone", "https://codeberg.org/michaelfliegner/nixbook", root_mount_point + "/etc/nixbook"], None
++        ["git", "clone", "https://codeberg.org/michifliegt/nixbook", root_mount_point + "/etc/nixbook"], None
 +    )
 +
      # Pick config parts and prepare substitution
